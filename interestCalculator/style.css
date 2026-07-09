@@ -26,6 +26,7 @@ form{
     width:140px;
     border-color: rgb(0, 0, 0);
     padding: 5px;
+    text-align: center;
 }
 
 #interestRate{
@@ -34,6 +35,7 @@ form{
     width:120px;
     border-color: rgba(0, 0, 0, 0.887);
     padding: 5px;
+    text-align: center;
 }
 
 #Years{
@@ -42,6 +44,7 @@ form{
     width: 100px;
     border-color: rgba(0, 0, 0, 0.887);
     padding: 5px;
+    text-align: center;
 }
 
 button{

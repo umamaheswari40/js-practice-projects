@@ -8,6 +8,15 @@ function calculate(){
     let rateInput = Number(rate.value) / 100;
     let yearInput = Number(year.value);
 
+    if(principalInput < 0){
+        principalInput = 0;
+    }
+    if(interestRate < 0){
+        interestRate = 0;
+    }
+    if(Years < 0){
+        Years = 0;
+    }
 
     const compoundIn = principalInput * Math.pow(1 + rateInput, yearInput);
     totalAmount.textContent = `$${compoundIn.toFixed(2)}`;
